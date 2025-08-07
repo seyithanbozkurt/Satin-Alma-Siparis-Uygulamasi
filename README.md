@@ -183,18 +183,6 @@ curl -X POST http://localhost:8083/api/orders \
 - Stok kontrolü otomatik olarak yapılır
 - Sipariş numaraları otomatik olarak oluşturulur
 
-## Sorun Giderme
-
-### Servisler Başlamıyorsa
-1. Docker loglarını kontrol edin: `docker-compose logs`
-2. Veritabanı bağlantısını kontrol edin
-3. Port çakışması olup olmadığını kontrol edin
-
-### Veritabanı Bağlantı Sorunu
-1. MySQL container'ının çalıştığından emin olun
-2. Veritabanı şifresini kontrol edin
-3. Veritabanı adlarının doğru olduğundan emin olun
-
 ## Lisans
 
 Bu proje eğitim amaçlı geliştirilmiştir. 
